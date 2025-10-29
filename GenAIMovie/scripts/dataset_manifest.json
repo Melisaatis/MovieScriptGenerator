@@ -1,0 +1,653 @@
+[
+  {
+    "title": "Die Hard",
+    "year": "1988",
+    "genre": "Action",
+    "script_path": "Action/Die_Hard_1988.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "True Lies",
+    "year": "1994",
+    "genre": "Action",
+    "script_path": "Action/True_Lies_1994.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Face/Off",
+    "year": "1997",
+    "genre": "Action",
+    "script_path": "Action/Face_Off_1997.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Point Break",
+    "year": "1991",
+    "genre": "Action",
+    "script_path": "Action/Point_Break_1991.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Total Recall",
+    "year": "1990",
+    "genre": "Action",
+    "script_path": "Action/Total_Recall_1990.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Predator",
+    "year": "1987",
+    "genre": "Action",
+    "script_path": "Action/Predator_1987.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Indiana Jones and the Temple of Doom",
+    "year": "1984",
+    "genre": "Adventure",
+    "script_path": "Adventure/Indiana_Jones_and_the_Temple_of_Doom_1984.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "King Kong",
+    "year": "1933",
+    "genre": "Adventure",
+    "script_path": "Adventure/King_Kong_1933.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Legend",
+    "year": "1985",
+    "genre": "Adventure",
+    "script_path": "Adventure/Legend_1985.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Willow",
+    "year": "1988",
+    "genre": "Adventure",
+    "script_path": "Adventure/Willow_1988.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Toy Story",
+    "year": "1995",
+    "genre": "Animation",
+    "script_path": "Animation/Toy_Story_1995.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Aladdin",
+    "year": "1992",
+    "genre": "Animation",
+    "script_path": "Animation/Aladdin_1992.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Beauty and the Beast",
+    "year": "1991",
+    "genre": "Animation",
+    "script_path": "Animation/Beauty_and_the_Beast_1991.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Mulan",
+    "year": "1998",
+    "genre": "Animation",
+    "script_path": "Animation/Mulan_1998.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Anastasia",
+    "year": "1997",
+    "genre": "Animation",
+    "script_path": "Animation/Anastasia_1997.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Groundhog Day",
+    "year": "1993",
+    "genre": "Comedy",
+    "script_path": "Comedy/Groundhog_Day_1993.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Ghostbusters",
+    "year": "1984",
+    "genre": "Comedy",
+    "script_path": "Comedy/Ghostbusters_1984.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Annie Hall",
+    "year": "1977",
+    "genre": "Comedy",
+    "script_path": "Comedy/Annie_Hall_1977.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Duck Soup",
+    "year": "1933",
+    "genre": "Comedy",
+    "script_path": "Comedy/Duck_Soup_1933.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "His Girl Friday",
+    "year": "1940",
+    "genre": "Comedy",
+    "script_path": "Comedy/His_Girl_Friday_1940.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Arsenic and Old Lace",
+    "year": "1944",
+    "genre": "Comedy",
+    "script_path": "Comedy/Arsenic_and_Old_Lace_1944.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "It Happened One Night",
+    "year": "1934",
+    "genre": "Comedy",
+    "script_path": "Comedy/It_Happened_One_Night_1934.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Fletch",
+    "year": "1985",
+    "genre": "Comedy",
+    "script_path": "Comedy/Fletch_1985.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Three Men and a Baby",
+    "year": "1987",
+    "genre": "Comedy",
+    "script_path": "Comedy/Three_Men_and_a_Baby_1987.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": "1994",
+    "genre": "Drama",
+    "script_path": "Drama/Forrest_Gump_1994.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Citizen Kane",
+    "year": "1941",
+    "genre": "Drama",
+    "script_path": "Drama/Citizen_Kane_1941.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Midnight Cowboy",
+    "year": "1969",
+    "genre": "Drama",
+    "script_path": "Drama/Midnight_Cowboy_1969.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Rocky",
+    "year": "1976",
+    "genre": "Drama",
+    "script_path": "Drama/Rocky_1976.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Annie Hall",
+    "year": "1977",
+    "genre": "Drama",
+    "script_path": "Drama/Annie_Hall_1977.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Ordinary People",
+    "year": "1980",
+    "genre": "Drama",
+    "script_path": "Drama/Ordinary_People_1980.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Gandhi",
+    "year": "1982",
+    "genre": "Drama",
+    "script_path": "Drama/Gandhi_1982.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Amadeus",
+    "year": "1984",
+    "genre": "Drama",
+    "script_path": "Drama/Amadeus_1984.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Platoon",
+    "year": "1986",
+    "genre": "Drama",
+    "script_path": "Drama/Platoon_1986.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Dances with Wolves",
+    "year": "1990",
+    "genre": "Drama",
+    "script_path": "Drama/Dances_with_Wolves_1990.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Jaws",
+    "year": "1975",
+    "genre": "Horror",
+    "script_path": "Horror/Jaws_1975.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Alien",
+    "year": "1979",
+    "genre": "Horror",
+    "script_path": "Horror/Alien_1979.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Pet Sematary",
+    "year": "1989",
+    "genre": "Horror",
+    "script_path": "Horror/Pet_Sematary_1989.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Misery",
+    "year": "1990",
+    "genre": "Horror",
+    "script_path": "Horror/Misery_1990.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Interview with the Vampire",
+    "year": "1994",
+    "genre": "Horror",
+    "script_path": "Horror/Interview_with_the_Vampire_1994.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Scream",
+    "year": "1996",
+    "genre": "Horror",
+    "script_path": "Horror/Scream_1996.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Psycho",
+    "year": "1960",
+    "genre": "Horror",
+    "script_path": "Horror/Psycho_1960.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Halloween",
+    "year": "1978",
+    "genre": "Horror",
+    "script_path": "Horror/Halloween_1978.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Friday the 13th",
+    "year": "1980",
+    "genre": "Horror",
+    "script_path": "Horror/Friday_the_13th_1980.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Gremlins",
+    "year": "1984",
+    "genre": "Horror",
+    "script_path": "Horror/Gremlins_1984.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Fright Night",
+    "year": "1985",
+    "genre": "Horror",
+    "script_path": "Horror/Fright_Night_1985.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Hellraiser",
+    "year": "1987",
+    "genre": "Horror",
+    "script_path": "Horror/Hellraiser_1987.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "From Dusk Till Dawn",
+    "year": "1996",
+    "genre": "Horror",
+    "script_path": "Horror/From_Dusk_Till_Dawn_1996.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Ringu",
+    "year": "1998",
+    "genre": "Horror",
+    "script_path": "Horror/Ringu_1998.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Annie Hall",
+    "year": "1977",
+    "genre": "Romance",
+    "script_path": "Romance/Annie_Hall_1977.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Pretty Woman",
+    "year": "1990",
+    "genre": "Romance",
+    "script_path": "Romance/Pretty_Woman_1990.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Ghost",
+    "year": "1990",
+    "genre": "Romance",
+    "script_path": "Romance/Ghost_1990.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Sleepless in Seattle",
+    "year": "1993",
+    "genre": "Romance",
+    "script_path": "Romance/Sleepless_in_Seattle_1993.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Titanic",
+    "year": "1997",
+    "genre": "Romance",
+    "script_path": "Romance/Titanic_1997.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Notting Hill",
+    "year": "1999",
+    "genre": "Romance",
+    "script_path": "Romance/Notting_Hill_1999.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "It Happened One Night",
+    "year": "1934",
+    "genre": "Romance",
+    "script_path": "Romance/It_Happened_One_Night_1934.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "From Here to Eternity",
+    "year": "1953",
+    "genre": "Romance",
+    "script_path": "Romance/From_Here_to_Eternity_1953.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Marty",
+    "year": "1955",
+    "genre": "Romance",
+    "script_path": "Romance/Marty_1955.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Blade Runner",
+    "year": "1982",
+    "genre": "SciFi",
+    "script_path": "SciFi/Blade_Runner_1982.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Aliens",
+    "year": "1986",
+    "genre": "SciFi",
+    "script_path": "SciFi/Aliens_1986.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Total Recall",
+    "year": "1990",
+    "genre": "SciFi",
+    "script_path": "SciFi/Total_Recall_1990.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Jurassic Park",
+    "year": "1993",
+    "genre": "SciFi",
+    "script_path": "SciFi/Jurassic_Park_1993.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Predator",
+    "year": "1987",
+    "genre": "SciFi",
+    "script_path": "SciFi/Predator_1987.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "12 Monkeys",
+    "year": "1995",
+    "genre": "SciFi",
+    "script_path": "SciFi/12_Monkeys_1995.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Independence Day",
+    "year": "1996",
+    "genre": "SciFi",
+    "script_path": "SciFi/Independence_Day_1996.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Men in Black",
+    "year": "1997",
+    "genre": "SciFi",
+    "script_path": "SciFi/Men_in_Black_1997.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Gattaca",
+    "year": "1997",
+    "genre": "SciFi",
+    "script_path": "SciFi/Gattaca_1997.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Dark City",
+    "year": "1998",
+    "genre": "SciFi",
+    "script_path": "SciFi/Dark_City_1998.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Starship Troopers",
+    "year": "1997",
+    "genre": "SciFi",
+    "script_path": "SciFi/Starship_Troopers_1997.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Sphere",
+    "year": "1998",
+    "genre": "SciFi",
+    "script_path": "SciFi/Sphere_1998.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Pi",
+    "year": "1998",
+    "genre": "SciFi",
+    "script_path": "SciFi/Pi_1998.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Pitch Black",
+    "year": "2000",
+    "genre": "SciFi",
+    "script_path": "SciFi/Pitch_Black_2000.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Se7en",
+    "year": "1995",
+    "genre": "Thriller",
+    "script_path": "Thriller/Se7en_1995.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Heat",
+    "year": "1995",
+    "genre": "Thriller",
+    "script_path": "Thriller/Heat_1995.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Fargo",
+    "year": "1996",
+    "genre": "Thriller",
+    "script_path": "Thriller/Fargo_1996.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Jackie Brown",
+    "year": "1997",
+    "genre": "Thriller",
+    "script_path": "Thriller/Jackie_Brown_1997.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Fight Club",
+    "year": "1999",
+    "genre": "Thriller",
+    "script_path": "Thriller/Fight_Club_1999.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Psycho",
+    "year": "1960",
+    "genre": "Thriller",
+    "script_path": "Thriller/Psycho_1960.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Rear Window",
+    "year": "1954",
+    "genre": "Thriller",
+    "script_path": "Thriller/Rear_Window_1954.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Chinatown",
+    "year": "1974",
+    "genre": "Thriller",
+    "script_path": "Thriller/Chinatown_1974.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Jaws",
+    "year": "1975",
+    "genre": "Thriller",
+    "script_path": "Thriller/Jaws_1975.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Taxi Driver",
+    "year": "1976",
+    "genre": "Thriller",
+    "script_path": "Thriller/Taxi_Driver_1976.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Carrie",
+    "year": "1976",
+    "genre": "Thriller",
+    "script_path": "Thriller/Carrie_1976.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Halloween",
+    "year": "1978",
+    "genre": "Thriller",
+    "script_path": "Thriller/Halloween_1978.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Alien",
+    "year": "1979",
+    "genre": "Thriller",
+    "script_path": "Thriller/Alien_1979.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Body Heat",
+    "year": "1981",
+    "genre": "Thriller",
+    "script_path": "Thriller/Body_Heat_1981.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Blade Runner",
+    "year": "1982",
+    "genre": "Thriller",
+    "script_path": "Thriller/Blade_Runner_1982.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Blue Velvet",
+    "year": "1986",
+    "genre": "Thriller",
+    "script_path": "Thriller/Blue_Velvet_1986.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Misery",
+    "year": "1990",
+    "genre": "Thriller",
+    "script_path": "Thriller/Misery_1990.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Basic Instinct",
+    "year": "1992",
+    "genre": "Thriller",
+    "script_path": "Thriller/Basic_Instinct_1992.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "genre": "Thriller",
+    "script_path": "Thriller/Pulp_Fiction_1994.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Copycat",
+    "year": "1995",
+    "genre": "Thriller",
+    "script_path": "Thriller/Copycat_1995.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Scream",
+    "year": "1996",
+    "genre": "Thriller",
+    "script_path": "Thriller/Scream_1996.txt",
+    "source": "IMSDb-Direct"
+  },
+  {
+    "title": "Sleepy Hollow",
+    "year": "1999",
+    "genre": "Thriller",
+    "script_path": "Thriller/Sleepy_Hollow_1999.txt",
+    "source": "IMSDb-Direct"
+  }
+]
