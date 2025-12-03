@@ -2,3 +2,9 @@
 .streamlit/
 ss/
 stable-diffusion-webui/
+
+# Ignore everything in MovieScriptGeneratorStreamlit except specific files
+MovieScriptGeneratorStreamlit/*
+!MovieScriptGeneratorStreamlit/mcp_server.py
+!MovieScriptGeneratorStreamlit/streamlit_app_llama.py
+!MovieScriptGeneratorStreamlit/streamlit_app_mistral.py
