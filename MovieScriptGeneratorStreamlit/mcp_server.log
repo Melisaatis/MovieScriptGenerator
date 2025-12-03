@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/melisaatis/Desktop/MovieScriptGenerator/MovieScriptGeneratorStreamlit/mcp_server.py", line 18, in <module>
+    import chromadb
+  File "/Users/melisaatis/anaconda3/envs/huggingface_env/lib/python3.11/site-packages/chromadb/__init__.py", line 3, in <module>
+    from chromadb.api.client import Client as ClientCreator
+  File "/Users/melisaatis/anaconda3/envs/huggingface_env/lib/python3.11/site-packages/chromadb/api/__init__.py", line 1, in <module>
+    from chromadb.api.types import *  # noqa: F401, F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/melisaatis/anaconda3/envs/huggingface_env/lib/python3.11/site-packages/chromadb/api/types.py", line 24, in <module>
+    from pydantic import BaseModel, field_validator, model_validator
+ImportError: cannot import name 'field_validator' from 'pydantic' (/Users/melisaatis/anaconda3/envs/huggingface_env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-darwin.so)

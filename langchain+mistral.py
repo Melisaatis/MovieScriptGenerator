@@ -73,7 +73,7 @@ def call_mistral_local(prompt: str, model: str = "mistral") -> str:
 # CONFIG - EDIT THESE PATHS
 # ------------------------------------------------------------------- #
 
-SCRIPTS_ROOT = Path("/Users/alessiacolumban/MovieScriptGenerator/GenAIMovie/scripts")
+SCRIPTS_ROOT = Path("GenAIMovie/scripts")
 MANIFEST_PATH = SCRIPTS_ROOT / "dataset_manifest.json"
 
 DB_PATH = Path("chroma_db")
@@ -296,7 +296,7 @@ def main():
     col = build_or_load_db(docs)
 
     query = "A rogue AI in a spaceship begins eliminating crew members, in the style of Alien and 2001."
-    genre = "SciFi"
+    genre = "Sci-Fi"
 
     final_prompt = retrieve_and_build_prompt(col, query, genre)
 
