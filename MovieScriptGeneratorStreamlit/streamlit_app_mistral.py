@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 🎬 MOVIE SCRIPT GENERATOR & ACTOR BOOKING SYSTEM
 Integrates MCP + Langchain + Mistral RAG for intelligent script generation
@@ -28,9 +27,7 @@ except ImportError as e:
     st.error(f"Missing required packages. Please install: {e}")
     st.stop()
 
-# ===================================================================
-# PAGE CONFIG
-# ===================================================================
+# PAGE CONFIGURATION
 st.set_page_config(
     page_title="🎬 Movie Script Generator",
     page_icon="🎬",
@@ -38,9 +35,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ===================================================================
 # CONFIGURATION
-# ===================================================================
 SCRIPTS_ROOT = Path("../GenAIMovie/scripts")
 MANIFEST_PATH = SCRIPTS_ROOT / "dataset_manifest.json"
 DB_PATH = Path("../chroma_db")
@@ -64,9 +59,7 @@ IMAGE_API_OPTIONS = {
     "Hugging Face Inference": "hf-inference"
 }
 
-# ===================================================================
 # SESSION STATE INITIALIZATION
-# ===================================================================
 if 'actors' not in st.session_state:
     st.session_state.actors = {}
 if 'collection' not in st.session_state:
@@ -80,9 +73,7 @@ if 'openai_client' not in st.session_state:
 if 'actor_enrichment_enabled' not in st.session_state:
     st.session_state.actor_enrichment_enabled = False
 
-# ===================================================================
 # RAG FUNCTIONS
-# ===================================================================
 
 @st.cache_resource
 def initialize_rag_system():
@@ -247,7 +238,8 @@ Include the following fields:
         - current_status: Whether they are actively working
         
 If the actor is not well-known or you don't have information, return a JSON with "error" field.
-Return ONLY valid JSON, no additional text."""        response = openai_client.chat.completions.create(
+Return ONLY valid JSON, no additional text."""  
+        response = openai_client.chat.completions.create(
             model=OPENAI_MODEL,
             messages=[
                 {"role": "system", "content": "You are a film industry expert with extensive knowledge of actors and cinema. Provide accurate, factual information."},
@@ -278,7 +270,7 @@ def retrieve_and_build_prompt(collection, query: str, genre: Optional[str], acto
             "sci-fi": "scifi",
             "romance": "romance",
             "romantic": "romance",
-            "romcom": "comedy",  # romantic comedy uses comedy genre
+            "romcom": "comedy", 
             "rom-com": "comedy",
             "action": "action",
             "comedy": "comedy",
@@ -322,7 +314,7 @@ def retrieve_and_build_prompt(collection, query: str, genre: Optional[str], acto
         
         # If no genre matches found, do a broader search without genre filter
         if not parts and genre:
-            st.warning(f"⚠️ No {genre} references found. Doing broader search...")
+            st.warning(f"No {genre} references found. Doing broader search...")
             results = collection.query(
                 query_texts=[query],
                 n_results=RETRIEVAL_K
@@ -395,9 +387,8 @@ NOW WRITE THE {genre.upper() if genre else ''} SCREENPLAY FOR: {query}
         st.error(f"Retrieval error: {e}")
         return "", []
 
-# ===================================================================
+
 # MAIN APP
-# ===================================================================
 
 # Title and Header
 st.title("🎬 Movie Script Generator & Actor Booking System")
@@ -504,9 +495,8 @@ with st.sidebar:
             st.session_state.hf_token = hf_token
             st.success("✅ HF Token saved")
 
-# ===================================================================
+
 # ACTOR BOOKING SECTION
-# ===================================================================
 
 st.header("🎭 Actor Booking System")
 
@@ -593,9 +583,9 @@ with col2:
 
 st.divider()
 
-# ===================================================================
+
 # SCRIPT GENERATION SECTION
-# ===================================================================
+
 
 st.header("🎬 Generate Movie Script")
 
@@ -745,9 +735,8 @@ Write in proper Hollywood script format with scene headings, character names in 
             progress_bar.empty()
             status_text.empty()
 
-# ===================================================================
+
 # DISPLAY GENERATED SCRIPTS
-# ===================================================================
 
 if st.session_state.generated_scripts:
     st.divider()
