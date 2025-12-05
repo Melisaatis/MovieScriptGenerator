@@ -24,7 +24,7 @@ import requests
 
 app = FastAPI(
     title="Movie Script Generator MCP Server",
-    description="Backend API for script generation with RAG + Mistral",
+    description="Backend API for script generation with RAG + Llama",
     version="1.0.0"
 )
 # CORS middleware
@@ -43,7 +43,7 @@ SCRIPTS_ROOT = Path("../GenAIMovie/scripts")
 DB_PATH = Path("../chroma_db")
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MISTRAL_MODEL = "mistral"
+LLAMA_MODEL = "llama3:8b"
 RETRIEVAL_K = 6
 
 # Global state
@@ -92,12 +92,12 @@ def initialize_rag():
         print(f"RAG initialization error: {e}")
         return False
 
-def call_mistral(prompt: str) -> str:
-    """Call local Mistral via Ollama"""
+def call_llama(prompt: str) -> str:
+    """Call local Llama via Ollama"""
     try:
         response = requests.post(
             OLLAMA_URL,
-            json={"model": MISTRAL_MODEL, "prompt": prompt, "stream": False},
+            json={"model": LLAMA_MODEL, "prompt": prompt, "stream": False},
             timeout=600
         )
         data = response.json()
@@ -233,7 +233,7 @@ Write in proper Hollywood script format with scene headings, character names in 
 """.strip()
     
     # Generate screenplay
-    screenplay = call_mistral(prompt)
+    screenplay = call_llama(prompt)
     
     return ScriptResponse(
         screenplay=screenplay,

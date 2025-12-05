@@ -2,6 +2,7 @@
 .streamlit/
 ss/
 stable-diffusion-webui/
+PROJECT_REPORT.md
 
 # Ignore everything in MovieScriptGeneratorStreamlit except specific files
 MovieScriptGeneratorStreamlit/*
